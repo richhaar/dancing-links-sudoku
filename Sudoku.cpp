@@ -3,7 +3,7 @@
 
 	Solves a sudoku by representing the problem as an exact cover problem
 	and solves it using Donald Knuth's AlgorithmX with dancing links
-	for effecient backtracking.
+	for efficient backtracking.
 
 	See Donald Knuth's paper here: https://arxiv.org/pdf/cs/0011047.pdf
 
@@ -21,7 +21,7 @@ int main()
 	Sudoku sudoku;
 
 	// 19/02/2022 NYTimes hard sudoku
-	std::vector<std::vector<int32_t>> grid = {
+	std::vector<std::vector<int32_t>> const grid = {
 		{0,7,0, 4,8,0, 1,3,0},
 		{0,0,0, 0,0,0, 0,0,0},
 		{0,0,0, 5,6,0, 0,8,0},
